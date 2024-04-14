@@ -1,0 +1,69 @@
+.card{
+    width: 400px;
+    min-height: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px rgb(0, 0, 0, 0.24);
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: .1px;
+}
+
+.card_person{
+    background-image: url(/img/person.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+
+.card_name{
+    margin-top: 220px;
+    margin-bottom: 10px;
+}
+
+.card_media{
+    width: 100%;
+    height: 90px;
+    margin-top: 40px;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.card_icon{
+    width: 25%;
+    height: 100%;
+    display: block;
+    padding: 0 40px;
+    margin-top: -18px;
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.card_icono---gt{
+    background-image: url(/img/github.svg);
+}
+
+.card_icono---telegram{
+    background-image: url(/img/telegran.svg);
+}
+
+.card_icono---ins{
+    background-image: url(/img/instagram.svg);
+}
+
+.card_animacion:hover{
+    background-size: 40px;
+    transition: 0.3s;
+}
